@@ -2,8 +2,8 @@ class Schedule {
   final int id;
   final String court;
   final String userSchedule;
-  final bool isActive;
-  final DateTime dateSchedule;
+  final int isActive;
+  final String dateSchedule;
 
   const Schedule(
       {required this.id,
