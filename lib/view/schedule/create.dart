@@ -94,7 +94,7 @@ class _MyWidgetState extends State<CreateSchedule> {
   }
 
   Future<void> validateData() async {
-    if (_formKey.currentState!.validate() || dateController.text.isEmpty) {
+    if (_formKey.currentState!.validate()) {
       process();
     }
   }
